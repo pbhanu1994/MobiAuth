@@ -1,0 +1,679 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cat",
+				"cat_array_name"
+			],
+			[
+				"cat_arr",
+				"cat_array_name"
+			],
+			[
+				"dbcm_",
+				"dbcm_UL"
+			],
+			[
+				"category",
+				"category_query"
+			],
+			[
+				"cate",
+				"category_query"
+			],
+			[
+				"categ",
+				"category	(maincontent.php)"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"ime",
+				"imei_val"
+			],
+			[
+				"clien",
+				"client_id"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"mysql_fet",
+				"mysql_fetch_array"
+			],
+			[
+				"query_",
+				"query_token1"
+			],
+			[
+				"refres",
+				"refresh_token"
+			],
+			[
+				"temp",
+				"temp_token"
+			],
+			[
+				"imei",
+				"imei_num	(site2.php)"
+			],
+			[
+				"client_",
+				"client_pass"
+			],
+			[
+				"c_",
+				"c_pass"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"arr",
+				"arr_emp_name"
+			],
+			[
+				"emp_",
+				"emp_id"
+			],
+			[
+				"cli",
+				"client_pass	(login.php)"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"hash",
+				"hash2"
+			],
+			[
+				"iem",
+				"imei_num"
+			],
+			[
+				"quer",
+				"query3"
+			],
+			[
+				"mysql_err",
+				"mysql_error"
+			],
+			[
+				"has",
+				"hash2"
+			],
+			[
+				"php",
+				"php	<?php … ?>"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"Log",
+				"Logout"
+			],
+			[
+				"title",
+				"title	Attr"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"includ",
+				"include_once"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"include",
+				"include_once	(user_regs.php)"
+			],
+			[
+				"inclu",
+				"include_once	(user_regs.php)"
+			],
+			[
+				"emp",
+				"emp_mob"
+			],
+			[
+				"_",
+				"_POST	(login.php)"
+			],
+			[
+				"clie",
+				"client_id"
+			],
+			[
+				"input",
+				"inputb	input - button"
+			],
+			[
+				"ex",
+				"explore"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"idea",
+				"ideaboard"
+			],
+			[
+				"side",
+				"sidebar"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"ale",
+				"alert	(index 2.php)"
+			],
+			[
+				"stye",
+				"style_this_nav"
+			],
+			[
+				"bs3-col",
+				"bs3-col:3	bs3-col-3"
+			],
+			[
+				"bs3",
+				"bs3-col:3	bs3-col-3"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"PHPUnit: ",
+				"PHPUnit: Run"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"PHPUnit: run",
+				"PHPUnit: Run"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brou",
+				"BracketHighlighter: Swap Quotes"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/BHANU/Desktop/phpunit.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/ideas.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/name.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/maincontent.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/list.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/category_colors.php",
+		"/C/xampp/htdocs/mobiauth/some.php",
+		"/C/xampp/htdocs/mobiauth/user_regs.php",
+		"/C/xampp/htdocs/mobiauth/site2.php",
+		"/C/xampp/htdocs/mobiauth/login.php",
+		"/C/xampp/htdocs/mobiauth/authorize.php",
+		"/C/xampp/htdocs/mobiauth/final.php",
+		"/C/Users/BHANU/Desktop/lollybe/lollybe/test.html",
+		"/C/xampp/htdocs/mobiauth/welcome.php",
+		"/C/xampp/htdocs/mobiauth/redirect.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/js.php",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/demo1.php",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/demo2.php",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/demo1.html",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/demo2.html",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/js/jquery.signup-better.js",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/css/signup-better.css",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/css/style-signup.css",
+		"/C/xampp/htdocs/mobiauth/thank.php",
+		"/C/xampp/htdocs/mobiauth/one.php",
+		"/C/xampp/htdocs/mobiauth/user_reg.php",
+		"/C/xampp/htdocs/mobiauth/client_site.php",
+		"/C/xampp/htdocs/mobiauth/db.php",
+		"/C/Users/BHANU/Desktop/mobiauth/site2.php",
+		"/C/Users/BHANU/Desktop/mobiauth/welcome.php",
+		"/E/weblab/includes/loggedin.php",
+		"/C/xampp/htdocs/mobiauth/unauthorize.php",
+		"/C/xampp/htdocs/mobiauth/index_signin.html",
+		"/F/htdocs/parkingmanager/departure.php",
+		"/C/Users/BHANU/Desktop/Und.m",
+		"/F/htdocs/parkingmanager/db.php",
+		"/C/xampp/htdocs/mobiauth/index.html",
+		"/C/Users/BHANU/Desktop/essay/medium-editor/demo/index.html",
+		"/C/Users/BHANU/Desktop/Stack Social Downloads/Bootstrap Themes - MEGA_BUNDLE/bundle/BS3_DRONE_THEME/BS3_DRONE_THEME/index_signin_alt.html",
+		"/E/proj/BLACK_BLUE_BS3/BLACK_BLUE_BS3/index_signin.html",
+		"/E/proj/BLACK_BLUE_BS3/BLACK_BLUE_BS3/index.html",
+		"/E/weblab/login/index.php",
+		"/E/weblab/includes/tab.php",
+		"/C/Users/BHANU/Desktop/essay/index.php",
+		"/E/Web Development,Designing & Programming/Shopping Cart and paypal from Scratch/work files/index.php",
+		"/C/Users/BHANU/Desktop/sk/s.css",
+		"/C/Users/BHANU/Desktop/paper-collapse-master/demo/index.html",
+		"/C/Users/BHANU/Desktop/paper-collapse-master/paper-collapse.min.js",
+		"/C/Users/BHANU/Desktop/sk/sm.css",
+		"/C/xampp/htdocs/mobiauth/sample.php",
+		"/C/Users/BHANU/Desktop/lollybe/lollybe/myresume1.2.html",
+		"/C/Users/BHANU/Desktop/lollybe/lollybe/index1.2.html",
+		"/C/xampp/htdocs/mobiauth/author",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/BHANU/Desktop/lollybe/lollybe/nav/js/main.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/nologin.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/infosection.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/style-left-nav.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/ts.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/common-scripts.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/index 3.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/simpletab.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/team.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/profilepicture.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/css.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/common.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/bootstrap-select.min.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/bootstrap-switch.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/bootstrap.min.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/bootstrap.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/signup-better.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/db.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/sign_up.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/style-signup.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/jquery.signup-better.js",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/css/style.css",
+		"/C/Users/BHANU/Desktop/subscribe-pop-up/css/subscribe-better.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/ts.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/medium-editor.min.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/medium-editor.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/default.min.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/medium-editor.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/index 4.php",
+		"/C/xampp/htdocs/mobiauth/two.php",
+		"/C/Users/BHANU/Desktop/untitled.fig",
+		"/C/Users/BHANU/Desktop/paper-collapse-master/paper-collapse.js",
+		"/C/Users/BHANU/Desktop/sk/index.html",
+		"/C/Users/BHANU/Desktop/paper-collapse-master/paper-collapse.css",
+		"/C/Users/BHANU/Downloads/OFDM_Module1/OFDM_Module1/Main_tx.m",
+		"/C/Users/BHANU/Downloads/OFDM_Module1/OFDM_Module1/data_mapping.m",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/index 2.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/medium-editor.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/index 3.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-2/maincontent.php",
+		"/C/Users/BHANU/Desktop/milan links page/milan_registrations/index_justified-nav_altnav.html",
+		"/C/Users/BHANU/Desktop/milan links page/index.html",
+		"/C/Users/BHANU/Desktop/milan links page/Flat_DARK_UI_3.0/index_justified-nav_altnav.html",
+		"/H/Code/Frameconversion.m",
+		"/C/Users/BHANU/Desktop/Form8 Printout2_files/WebResource.js",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/miscfunctions.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/loggedin.php",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/BHANU/Desktop/questionnaire/questionnaire/README.md",
+		"/D/Web Development Works/Simple-Trello/index.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/explorejquery.js",
+		"/C/Users/BHANU/Desktop/index.html",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/jasny-bootstrap.min.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/custom.css",
+		"/C/Users/BHANU/AppData/Local/Temp/fz3temp-1/home.css",
+		"/C/Users/BHANU/Desktop/style-left-nav.js",
+		"/D/Web Development Works/Simple-Trello/index.js",
+		"/D/Web Development Works/Simple-Trello/index.html",
+		"/D/desktop - c files/sassyo/style.scss"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"category_query",
+			"idp",
+			"idea_page",
+			"post-content",
+			"post-id",
+			"id",
+			"explpre",
+			"username",
+			"echo",
+			"$client_id",
+			"arr_token",
+			"temp_token",
+			"query3",
+			"close",
+			"lolly be<a href=\"#0\" class=\"close-btn\">Close</a>",
+			"lolly be",
+			"bootstrap",
+			"ajax.goog",
+			"<link rel=\"stylesheet\" href=\"testimonial1/css/nav.css\" />",
+			"<script src=\"testimonial1/js/modernizr.js\"></script>",
+			"48",
+			"4",
+			"48",
+			"we",
+			"          <",
+			"hidden",
+			"48",
+			"style_it",
+			"my",
+			"vision",
+			"select",
+			"select image",
+			"sidebar-closed",
+			"sidebarbar-closed",
+			"sidebar-closed",
+			"sidebar-close",
+			"sidebar",
+			"nav",
+			"side",
+			"sidebar",
+			"nav-collapse",
+			"nav",
+			"sidebar",
+			"section",
+			"sidebar-closed",
+			"search",
+			"category",
+			"sb",
+			"subs",
+			"sidebar",
+			"sidebar-closed",
+			"sidebar",
+			"category",
+			"compose-form",
+			"check",
+			"details",
+			"toggle",
+			"data-dism",
+			"data-tog",
+			"data-dis",
+			"data-tog",
+			"data-dis",
+			"code.jquery",
+			"anchor ",
+			"anchor",
+			"setTargetBlank",
+			"True",
+			"true",
+			"<b>",
+			"target",
+			"anchor",
+			"    <",
+			"default",
+			"default++++",
+			"default+++",
+			"default++",
+			"default+",
+			"default",
+			"flat",
+			"bootstrap",
+			"theme",
+			"content",
+			"editable",
+			"content",
+			"medium",
+			"objCtr",
+			"link",
+			"placeholder",
+			"vaue",
+			";",
+			"attrs",
+			"fa fa-link",
+			"value",
+			"<b>#</b>",
+			"link",
+			"<i",
+			"#",
+			"'];\n",
+			"content of the essay",
+			"type your text",
+			"titleit",
+			"following",
+			"title",
+			"ul #side",
+			"ul .side",
+			"ul side",
+			"ul sede",
+			"ul.",
+			"ul",
+			"ul.",
+			"ul.sidebar-menu",
+			"ul.sidebar-menu li",
+			"#sidebar ul li",
+			"sidebar ul li",
+			"sidebar ul li ",
+			"active",
+			"visited",
+			"settings",
+			"ideaboard",
+			"explore",
+			"active"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "final.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

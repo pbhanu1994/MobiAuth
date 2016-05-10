@@ -1,0 +1,397 @@
+@import "bootstrap/bootstrap.less";
+@import "variables.less";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+
+.form-control {
+  .box-shadow(none);
+  color: @input-color;
+
+  &[disabled] {
+    border-color: @input-border-disabled;
+  }
+}
+
+.btn, .btn:hover {
+  box-shadow:     @btn-box-shadow;
+
+}
+
+.btn-group .btn + .btn {
+  margin: 0;
+}
+
+// fix dropdown btn in .navbar-btn .dropdown-toggle .btn-sm usage case
+.btn-group .btn + .btn.navbar-btn {
+    margin-top: 8px;
+  }
+  
+pre {
+  border: none;
+  color: @pre-color;
+}
+
+legend {
+  color: @legend-color;
+}
+
+.well {
+  border: none;
+  border-radius: @border-radius-base;
+  .box-shadow(none);
+}
+
+.panel {
+  border: none;
+  .box-shadow(0 3px 1px rgba(0,0,0,.15));
+  
+}
+.panel-default > .panel-heading{
+  background-color: @brand-dark;
+  border-color: #dddddd;
+  color: @brand-primary;
+  border-bottom: 1px solid fade(lighten(@brand-dark, 25%), 81%);
+}
+
+.page-header {
+  margin-top: 20px;
+}
+.navbar {
+  .box-shadow(0 3px 0px rgba(0,0,0,.15));
+}
+
+.nav > li > a {
+  padding-left: @navbar-link-padding-horizontal;
+  padding-right: @navbar-link-padding-horizontal;
+
+  color: @text-color;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: transparent;
+}
+.nav-tabs{
+  margin-bottom:15px;
+}
+
+.navbar-nav {
+  > li {
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 1px;
+      height: 100%;
+      background: @navbar-default-divider-color;
+
+    }
+
+    &:hover,
+    &:hover + li,
+    &.active,
+    &.active + li {
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  .disabled {
+    &:hover,
+    &:hover + li {
+      &:before {
+        display: block;
+      }
+    }
+  }
+
+  > li:first-child {
+    &:before {
+      display: none;
+    }
+  }
+
+  > li > a {
+    font-size: @navbar-default-link-font-size;
+    font-weight: 600;
+  }
+
+  > .active > a {
+    cursor: default;
+  }
+}
+
+.navbar-inverse {
+  .navbar-nav {
+    > li {
+      &:before {
+        background: @navbar-inverse-divider-color;
+      }
+    }
+
+    > .active > a {
+      &:after {
+        background: @navbar-default-bg;
+      }
+
+      &:before {
+        border-top-color: @navbar-default-bg;
+      }
+    }
+  }
+}
+
+.input-group-addon {
+  background: @input-group-addon-bg;
+}
+
+.dropdown-menu {
+  .box-shadow(none);
+  border: none;
+  margin-top: @dropdown-margin-top;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid @brand-primary;
+  }
+
+  &.pull-right {
+    &:before {
+      right: 20px;
+      left: auto;
+    }
+  }
+  
+  > li > a {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: @dropdown-link-hover-color;
+      background: @dropdown-link-hover-bg;
+    }
+  }
+
+  .disabled > a {
+    &,
+    &:hover,
+    &:focus {
+      color: @dropdown-link-disabled-color;
+    }
+  }
+
+  .active > a {
+    &,
+    &:hover,
+    &:focus {
+      position: relative;
+      color: @dropdown-link-active-color;
+      text-decoration: none;
+      outline: 0;
+      background: @dropdown-link-active-bg;
+      cursor: default;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: auto;
+      width: 4px;
+      height: 100%;
+      background: @brand-primary;
+    }
+  }
+
+  .dropdown-header {
+    color: @dropdown-header-color;
+  }
+}
+
+.dropup .dropdown-menu {
+  margin-bottom: @dropdown-margin-top;
+
+  &:before {
+    top: auto;
+    bottom: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid @brand-primary;
+    border-bottom: none;
+  }
+}
+
+.pagination {
+  > li {
+    > a,
+    > span {
+      border: none;
+      color: @text-color;
+      position: relative;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background: @pagination-divider-color;
+      }
+    }
+
+    &:first-child {
+      > a,
+      > span {
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+
+  > .active > a,
+  > .active > span {
+    &:before {
+      display: none;
+    }
+  }
+
+  > li > a:hover,
+  > li > a:focus {
+    &:before {
+      display: none;
+    }
+  }
+
+  > .disabled {
+    > span,
+    > a,
+    > a:hover,
+    > a:focus {
+      &:before {
+        display: block;
+      }
+    }
+  }
+}
+
+.pager {
+  li {
+    > a,
+    > span {
+      border: none;
+      color: @text-color;
+    }
+  }
+}
+
+.alert {
+  border: none;
+}
+
+.panel {
+  .list-group {
+    margin: 0 0 10px;
+
+    li.list-group-item {
+      &:hover {
+        border-color: @list-group-border;
+      }
+    }
+
+    .list-group-item {
+      border-width: 1px;
+      color: @text-color;
+
+      &.active {
+        .list-group-item-text {
+          color: @text-color;
+        }
+      }
+
+      &:hover {
+        border-color: @list-group-active-border;
+      }
+
+      &:first-child {
+        .border-top-radius(@border-radius-base);
+      }
+      // But keep it for the last one
+      &:last-child {
+        border-bottom: 1px solid @list-group-border;
+      }
+    }
+
+
+  }
+
+  .list-group-flush {
+    margin: 15px -15px -15px;
+
+    .list-group-item {
+      border-width: 1px 0;
+      color: @text-color;
+
+      &.active {
+        .list-group-item-text {
+          color: @text-color;
+        }
+      }
+
+      &:hover {
+        border-color: @list-group-border;
+      }
+
+      &:first-child {
+        .border-top-radius(0);
+      }
+      // But keep it for the last one
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+
+}
+
+.progress {
+  .box-shadow(none);
+
+  .progress-bar {
+    .box-shadow(none);
+  }
+}
+
+.popover {
+  border: none;
+  padding: 0;
+  color: @popover-color;
+  .box-shadow(none);
+}
+
+// Parent container
+.accordion-group {
+  background: @accordion-group-bg;
+}
+
+.media-heading {
+  color: @brand-primary;
+}
+
+.thumbnail .caption {
+  .caption-label {
+    color: @thumbnail-caption-label-color;
+  }
+}
+
